@@ -115,12 +115,10 @@ textarea {
     padding: 10px 25px;
 }
 
-table {
-    width: 66%;
-}
-
-td {
-    text-align: center;
+.project-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .project-title {
@@ -137,6 +135,7 @@ td {
 .project {
     position: relative;
     margin: 0 20px 20px 0;
+    width: 33%;
 }
 
 img {
