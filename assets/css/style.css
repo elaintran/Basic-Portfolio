@@ -93,11 +93,11 @@ a {
     margin-top: 15px;
 }
 
-label, input[type="text"], textarea {
+label, input[type="text"], input[type="email"], textarea {
     width: 100%;
 }
 
-input[type="text"], textarea {
+input[type="text"], input[type="email"], textarea {
     margin: 5px 0 15px;
     padding: 10px;
     border: 1px solid #dddddd;
