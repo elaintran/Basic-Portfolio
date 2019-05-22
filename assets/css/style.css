@@ -28,7 +28,7 @@ a {
 
 .container {
     width: 100%;
-    flex:1;
+    flex: 1;
 }
 
 .navigation-bar {
@@ -81,7 +81,7 @@ a {
 
 .my-bio {
     padding: 10px 0 20px;
-    display: inline-block;
+    overflow: auto;
 }
 
 .my-bio p {
