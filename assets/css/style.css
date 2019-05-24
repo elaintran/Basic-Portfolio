@@ -94,11 +94,12 @@ a {
 }
 
 input[type="text"], input[type="email"], textarea {
-    width: calc(100% - 22px);
+    width: 100%;
     margin: 5px 0 15px;
     padding: 10px;
     border: 1px solid #dddddd;
     border-radius: 2px;
+    box-sizing: border-box;
 }
 
 textarea {
